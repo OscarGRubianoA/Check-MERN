@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    height: 30vh;
+    width: 100%;
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 3rem;
+    height: 3rem;
+}
+nav{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    gap: .4rem;
+}
+nav a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: .2rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+section{
+    width: 12rem;
+    background-color:forestgreen;
+    margin-top: .9rem;
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    
+    width: 11rem;
+    height: 9rem;
+}
+main div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 18rem;
+    margin-bottom: .5rem;
+
+}
+main>div>img{
+    width: 15rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+article{
+    font-size: .8rem;
+}
+footer{
+    height: 7vh;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+footer a{
+    background-color: black;
+    color: white;
+    padding: .2rem;
+    text-decoration: none;
+}
+footer fieldset{
+    margin: 1px;
+    padding: .5rem;
+}
